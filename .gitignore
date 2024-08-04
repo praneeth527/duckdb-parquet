@@ -1,0 +1,58 @@
+# PyCharm
+.idea/
+
+# Mac
+.DS_Store
+**/.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+/v-env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+sample_data/*
+
+identifier.db
+identifier.db.wal
+
+tmp/*
+.tmp
+
+test/test-data/batchId-bulk/*
+
+venv
+original-data/*
+*.db
+*.duckdb
+.vscode
+*.log
+logs
+target
+output
+*.user.yml
+gcc_recon/result/
+/test/test-data/batchid-fk-netoff/
+/confidential-data/*
+/confidential-data/
+
+local/
+test/test-data
