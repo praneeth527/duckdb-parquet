@@ -11,7 +11,7 @@ class EventGenerator:
         return {
             'event_name': self.fake.bs(),
             'event_time': self.fake.date_time_between(start_date=datetime(2024, 8, 1),
-                                                      end_date=datetime(2024, 8, 3)).isoformat(),
+                                                      end_date=datetime(2024, 8, 3)),
             'name': self.fake.name(),
             'city': self.fake.city(),
             'amount': self.fake.random_int(min=0, max=9999)

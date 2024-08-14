@@ -46,7 +46,7 @@ def main():
             print(events)
             if len(events) > 0:
                 for event in events:
-                    event_date = event['event_time'][:10]
+                    event_date = event['event_time'].isoformat()[:10]
                     events_by_date[event_date].append(event)
 
                 append_events_to_parquet(events_by_date)

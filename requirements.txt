@@ -3,3 +3,5 @@ pandas==2.2.2
 pyarrow==17.0.0
 Faker==26.1.0
 duckdb~=1.0.0
+pyiceberg[sql-sqlite]~=0.7.0
+pytest~=8.3.2
